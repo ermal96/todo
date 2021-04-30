@@ -1,0 +1,37 @@
+.todo {
+  padding: 5px;
+  border-bottom: 1px solid #dedddd;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h4,
+  p {
+    margin: 0;
+  }
+  p {
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    padding: 0px 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-transform: lowercase;
+    &.active {
+      background: #42a6fe;
+    }
+    &.completed {
+      background: #42b983;
+    }
+  }
+  div {
+    display: flex;
+    align-items: center;
+  }
+  button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    margin-left: 10px;
+  }
+}

@@ -8,7 +8,7 @@
 <script>
 // @ is an alias to /src
 import {mapGetters} from 'vuex';
-import Todo from '../components/Todo';
+import Todo from '../components/Todo/index';
 export default {
   name: 'Todos',
   computed: {
